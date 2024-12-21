@@ -51,6 +51,6 @@ class AuthorView(APIView):
         author_info = {
             "name": "Benjamin Aguilar",
             "email": "benjaminalex174@gmail.com",
-            "github": "https://github.com/benjaminaguilar"
+            "github": "https://github.com/Drakn-Sub"
         }
         return Response(author_info)
